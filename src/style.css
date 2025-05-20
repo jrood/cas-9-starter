@@ -1,0 +1,9 @@
+:root {
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  font-family: inherit;
+}
