@@ -1,6 +1,6 @@
-import { signal } from 'cas-9';
+import { signal } from 'alien-signals';
 
 export function Counter() {
-  const [count, setCount] = signal(0);
-  return <button onClick={() => setCount(count() + 1)}>{count}</button>;
+  const count = signal(0);
+  return <button onClick={() => count(count() + 1)}>{count}</button>;
 }
